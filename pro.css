@@ -34,7 +34,7 @@
 
     }
       /*<!------------------secound row-------------------->*/
-		#div2{
+		#div2 {
 			display: grid;
 			background-color: #ffff;
 		    grid-template-columns: 8fr 4fr ;
@@ -42,11 +42,14 @@
             padding: 18px;
                         padding-top: 90px;
 
-           font-family: Arial, Helvetica, sans-serif;}
+           font-family: Arial, Helvetica, sans-serif;
+           position: relative;
+         }
 		
 		#col1-1{
 /*			 grid-row: 1 /20;
 */border-top:3px #006A4E solid;
+           position: relative;
 
             display: grid;
 		}
@@ -125,5 +128,13 @@ progress[value] {
   height: 8px;
 }
 
+
+.notch {
+  position: absolute;
+  left: 0;
+  top: -40px;
+  width: 20px;
+  border: 5px solid black;
+}
 
      
