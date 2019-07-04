@@ -15,7 +15,7 @@
 		/*<!------------------first row-------------------->*/
 
 		#div1{
-			background-color: #006A4E	;
+			background-image: linear-gradient(to right, #006A4e , grey, #006A4e);
 			 color:#ffff;
 			 padding:45px;
 			font-family: Arial, Helvetica, sans-serif;}
@@ -27,21 +27,26 @@
 
 		img{
 			float: right;
-			border:10px solid #006A4E;}
+			border:10px solid #006A4E;
+      position: relative;
+     top: 60px;
+     right: 30px;
 
-
+    }
       /*<!------------------secound row-------------------->*/
 		#div2{
 			display: grid;
 			background-color: #ffff;
 		    grid-template-columns: 8fr 4fr ;
-            grid-gap: 10px;
+            grid-gap: 40px;
             padding: 18px;
+                        padding-top: 90px;
+
            font-family: Arial, Helvetica, sans-serif;}
 		
 		#col1-1{
 /*			 grid-row: 1 /20;
-*/border-top:4px #006A4E solid;
+*/border-top:3px #006A4E solid;
 
             display: grid;
 		}
@@ -55,7 +60,7 @@
         #col1-2{
 /*			grid-row: 1 /20;
 
-*/        border-top:4px #006A4E solid;
+*/        border-top:3px #006A4E solid;
 
     display: grid;
         }
@@ -90,7 +95,8 @@
       /*<!------------------thired row-------------------->*/
 
       #div4{
-         background-color: #006A4E;
+              background-image: linear-gradient(to right, #006A4e , grey, #006A4e);
+
                	line-height: 10px;
                	color: #ffff;
            display: grid;
@@ -103,5 +109,21 @@
                     padding: 10px;
 
 }
+
+
+
+progress[value] {
+
+  width: 200px;
+  height: 8px;
+}
+
+.prog1[value] {
+  
+
+  width: 100px;
+  height: 8px;
+}
+
 
      
