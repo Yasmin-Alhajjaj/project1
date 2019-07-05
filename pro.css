@@ -34,7 +34,7 @@
 
     }
       /*<!------------------secound row-------------------->*/
-		#div2 {
+		.div2 {
 			display: grid;
 			background-color: #ffff;
 		    grid-template-columns: 8fr 4fr ;
@@ -43,10 +43,9 @@
                         padding-top: 90px;
 
            font-family: Arial, Helvetica, sans-serif;
-           position: relative;
          }
 		
-		#col1-1{
+		.col1-1{
 /*			 grid-row: 1 /20;
 */border-top:3px #006A4E solid;
            position: relative;
@@ -60,7 +59,7 @@
              padding:2px;
            }
 
-        #col1-2{
+        .col1-2{
 /*			grid-row: 1 /20;
 
 */        border-top:3px #006A4E solid;
@@ -69,7 +68,7 @@
         }
 
 
-      #div2 div{
+      .div2 div{
 
       	padding: 10px;
       }
@@ -129,7 +128,7 @@ progress[value] {
 }
 
 
-.notch {
+/*.notch {
   position: absolute;
   left: 0;
   top: -40px;
@@ -138,3 +137,4 @@ progress[value] {
 }
 
      
+*/
